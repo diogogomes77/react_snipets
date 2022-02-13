@@ -5,7 +5,9 @@
   ],
   "scripts": {
     "test": "lerna run test",
-    "new-version": "lerna version --conventional-commits --yes"
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff",
+    "start:redux": "lerna run start --scope='react_redux'"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
