@@ -1,0 +1,12 @@
+{
+  "name": "@snipets/server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@snipets/common": "1.0.0"
+  },
+  "scripts": {
+    "test": "echo tsting server with version: $npm_package_version"
+  }
+}
