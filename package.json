@@ -7,7 +7,8 @@
     "test": "lerna run test",
     "new-version": "lerna version --conventional-commits --yes",
     "diff": "lerna diff",
-    "start:redux": "lerna run start --scope='react_redux'"
+    "start:redux": "lerna run start --scope='react_redux'",
+    "start:hooks": "lerna run start --scope='react_hooks'"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
